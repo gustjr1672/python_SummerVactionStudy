@@ -30,7 +30,9 @@ for m in move:
     if move_colum > 0 and move_colum < 9 and move_row > 0 and move_row < 9:
         count+=1
 
+end = time.time()
 print(count)
+print(end - stat)
 
 
 
