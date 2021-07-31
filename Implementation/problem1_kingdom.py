@@ -16,7 +16,7 @@ now_row = re.search('[0-9]',location).group() #행을 분리한다.
 
 count = 0
 
-#  현재위치 (x,y) 좌표 찾기 (인덱스 찾기)
+#  현재위치 (x,y) 좌표 찾기 (인덱스 찾기
 for i in range(len(colum)):
     if now_colum == colum[i]:
         x = i+1
