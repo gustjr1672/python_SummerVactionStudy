@@ -48,3 +48,5 @@ while True:
     turn_time = 0
 
 print(count)
+
+#책참고
