@@ -3,9 +3,9 @@ import time
 N,M,K = map(int, input().split())
 max, max2, sum = 0, 0 , 0
 
-array = [N]
-array = input().split()
-array = [int(x) for x in array]
+# array = [N]
+array = list(map(int,input().split()))
+# array = [int(x) for x in array]
 
 start = time.time()
 #가장 큰 수 찾기
@@ -31,3 +31,4 @@ print(sum)
 print(end - start)
 
 #sort()를 사용해서 크기 순으로 정렬했으면, 쉽게 풀 수 있었다.
+#while문 수정
