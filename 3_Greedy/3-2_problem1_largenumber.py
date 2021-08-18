@@ -1,3 +1,6 @@
+#주어진 수들을 M번 더하여 가장 큰 수를 만든다
+#같은 숫자가 K번을 초과해서 더해질 수 없다
+
 import time
 
 N,M,K = map(int, input().split())
